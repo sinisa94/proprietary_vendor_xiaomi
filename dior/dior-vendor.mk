@@ -26,3 +26,4 @@ PRODUCT_PACKAGES += \
     libTimeService
 
 $(call inherit-product, vendor/xiaomi/dior/dior-vendor-blobs.mk)
+$(call inherit-product, vendor/xiaomi/qcom/qcom-vendor-blobs.mk)
