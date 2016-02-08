@@ -206,6 +206,7 @@ PRODUCT_COPY_FILES += \
 
 # Perf
 PRODUCT_COPY_FILES += \
+    vendor/xiaomi/dior/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/xiaomi/dior/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so
 
 # Qualcomm
@@ -258,6 +259,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dior/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
     vendor/xiaomi/dior/proprietary/vendor/lib/libsensor_test.so:system/vendor/lib/libsensor_test.so \
     vendor/xiaomi/dior/proprietary/vendor/lib/libsensor_user_cal.so:system/vendor/lib/libsensor_user_cal.so
+
+# Thermal
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/dior/proprietary/bin/thermal-engine:system/bin/thermal-engine \
+    vendor/xiaomi/dior/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
+    vendor/xiaomi/dior/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so
 
 # Time services
 PRODUCT_COPY_FILES += \
