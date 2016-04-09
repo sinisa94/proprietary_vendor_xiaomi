@@ -35,6 +35,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dior/proprietary/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
     vendor/xiaomi/dior/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
     vendor/xiaomi/dior/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
+    vendor/xiaomi/dior/proprietary/lib/soundfx/libbundlewrapper.so:system/lib/libbundlewrapper.so \
+    vendor/xiaomi/dior/proprietary/lib/soundfx/libdirac.so:system/lib/libdirac.so \
+    vendor/xiaomi/dior/proprietary/lib/soundfx/libdownmix.so:system/lib/libdownmix.so \
+    vendor/xiaomi/dior/proprietary/lib/soundfx/libeffectproxy.so:system/lib/libeffectproxy.so \
+    vendor/xiaomi/dior/proprietary/lib/soundfx/libldnhncr.so:system/lib/libldnhncr.so \
+    vendor/xiaomi/dior/proprietary/lib/soundfx/libqcompostprocbundle.so:system/lib/libqcompostprocbundle.so \
+    vendor/xiaomi/dior/proprietary/lib/soundfx/libqcomvisualizer.so:system/lib/libqcomvisualizer.so \
+    vendor/xiaomi/dior/proprietary/lib/soundfx/libqcomvoiceprocessing.so:system/lib/libqcomvoiceprocessing.so \
+    vendor/xiaomi/dior/proprietary/lib/soundfx/libreverbwrapper.so:system/lib/libreverbwrapper.so \
+    vendor/xiaomi/dior/proprietary/lib/soundfx/libvisualizer.so:system/lib/libvisualizer.so \
     vendor/xiaomi/dior/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/xiaomi/dior/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/xiaomi/dior/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
