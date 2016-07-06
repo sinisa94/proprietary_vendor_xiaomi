@@ -131,12 +131,10 @@ PRODUCT_COPY_FILES += \
 	vendor/xiaomi/dior/proprietary/vendor/lib/libchromatix_ov2720_preview.so:system/vendor/lib/libchromatix_ov2720_preview.so \
 	vendor/xiaomi/dior/proprietary/vendor/lib/libchromatix_ov2720_hfr.so:system/vendor/lib/libchromatix_ov2720_hfr.so \
 	vendor/xiaomi/dior/proprietary/vendor/lib/libchromatix_ov2720_zsl.so:system/vendor/lib/libchromatix_ov2720_zsl.so \
-	vendor/xiaomi/dior/proprietary/vendor/lib/libchromatix_ov2720_default_video.so:system/vendor/lib/libchromatix_ov2720_default_video.so \
 	vendor/xiaomi/dior/proprietary/vendor/lib/libchromatix_ov9760_q1v05a_common.so:system/vendor/lib/libchromatix_ov9760_q1v05a_common.so \
 	vendor/xiaomi/dior/proprietary/vendor/lib/libchromatix_ov9760_q1v05a_default_video.so:system/vendor/lib/libchromatix_ov9760_q1v05a_default_video.so \
 	vendor/xiaomi/dior/proprietary/vendor/lib/libchromatix_ov9760_q1v05a_liveshot.so:system/vendor/lib/libchromatix_ov9760_q1v05a_liveshot.so \
 	vendor/xiaomi/dior/proprietary/vendor/lib/libchromatix_ov9760_q1v05a_preview.so:system/vendor/lib/libchromatix_ov9760_q1v05a_preview.so \
-	vendor/xiaomi/dior/proprietary/vendor/lib/libmmcamera_SKUAB_ST_s5k4e1.so:system/vendor/lib/libmmcamera_SKUAB_ST_s5k4e1.so \
 	vendor/xiaomi/dior/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_zsl.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_zsl.so \
 	vendor/xiaomi/dior/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_common.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_common.so \
 	vendor/xiaomi/dior/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_snapshot.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_snapshot.so \
@@ -146,7 +144,29 @@ PRODUCT_COPY_FILES += \
 	vendor/xiaomi/dior/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_60fps.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_60fps.so \
 	vendor/xiaomi/dior/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_120fps.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_120fps.so \
 	vendor/xiaomi/dior/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_video_hd.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_video_hd.so \
-	vendor/xiaomi/dior/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_default_video.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_default_video.so
+	vendor/xiaomi/dior/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_default_video.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_default_video.so \
+	vendor/xiaomi/dior/proprietary/vendor/lib/libmmcamera_s5k3l2_omiba01.so:system/vendor/lib/libmmcamera_s5k3l2_omiba01.so \
+	vendor/xiaomi/dior/proprietary/vendor/lib/libchromatix_s5k3l2_omiba01_common.so:system/vendor/lib/libchromatix_s5k3l2_omiba01_common.so \
+	vendor/xiaomi/dior/proprietary/vendor/lib/libchromatix_s5k3l2_omiba01_snapshot.so:system/vendor/lib/libchromatix_s5k3l2_omiba01_snapshot.so \
+	vendor/xiaomi/dior/proprietary/vendor/lib/libchromatix_s5k3l2_omiba01_default_video.so:system/vendor/lib/libchromatix_s5k3l2_omiba01_default_video.so \
+	vendor/xiaomi/dior/proprietary/vendor/lib/libchromatix_s5k3l2_omiba01_liveshot.so:system/vendor/lib/libchromatix_s5k3l2_omiba01_liveshot.so \
+	vendor/xiaomi/dior/proprietary/vendor/lib/libchromatix_s5k3l2_omiba01_preview.so:system/vendor/lib/libchromatix_s5k3l2_omiba01_preview.so \
+	vendor/xiaomi/dior/proprietary/vendor/lib/libmmcamera_s5k3l2_q13s01b.so:system/vendor/lib/libmmcamera_s5k3l2_q13s01b.so \
+	vendor/xiaomi/dior/proprietary/vendor/lib/libchromatix_s5k3l2_q13s01b_common.so:system/vendor/lib/libchromatix_s5k3l2_q13s01b_common.so \
+	vendor/xiaomi/dior/proprietary/vendor/lib/libchromatix_s5k3l2_q13s01b_snapshot.so:system/vendor/lib/libchromatix_s5k3l2_q13s01b_snapshot.so \
+	vendor/xiaomi/dior/proprietary/vendor/lib/libchromatix_s5k3l2_q13s01b_default_video.so:system/vendor/lib/libchromatix_s5k3l2_q13s01b_default_video.so \
+	vendor/xiaomi/dior/proprietary/vendor/lib/libchromatix_s5k3l2_q13s01b_liveshot.so:system/vendor/lib/libchromatix_s5k3l2_q13s01b_liveshot.so \
+	vendor/xiaomi/dior/proprietary/vendor/lib/libchromatix_s5k3l2_q13s01b_preview.so:system/vendor/lib/libchromatix_s5k3l2_q13s01b_preview.so \
+	vendor/xiaomi/dior/proprietary/vendor/lib/libmmcamera_ov5693_p5v40a.so:system/vendor/lib/libmmcamera_ov5693_p5v40a.so \
+	vendor/xiaomi/dior/proprietary/vendor/lib/libchromatix_ov5693_p5v40a_common.so:system/vendor/lib/libchromatix_ov5693_p5v40a_common.so \
+	vendor/xiaomi/dior/proprietary/vendor/lib/libchromatix_ov5693_p5v40a_snapshot.so:system/vendor/lib/libchromatix_ov5693_p5v40a_snapshot.so \
+	vendor/xiaomi/dior/proprietary/vendor/lib/libchromatix_ov5693_p5v40a_default_video.so:system/vendor/lib/libchromatix_ov5693_p5v40a_default_video.so \
+	vendor/xiaomi/dior/proprietary/vendor/lib/libchromatix_ov5693_p5v40a_preview.so:system/vendor/lib/libchromatix_ov5693_p5v40a_preview.so \
+	vendor/xiaomi/dior/proprietary/vendor/lib/libmmcamera_ov5693_olq5f08.so:system/vendor/lib/libmmcamera_ov5693_olq5f08.so \
+	vendor/xiaomi/dior/proprietary/vendor/lib/libchromatix_ov5693_olq5f08_common.so:system/vendor/lib/libchromatix_ov5693_olq5f08_common.so \
+	vendor/xiaomi/dior/proprietary/vendor/lib/libchromatix_ov5693_olq5f08_snapshot.so:system/vendor/lib/libchromatix_ov5693_olq5f08_snapshot.so \
+	vendor/xiaomi/dior/proprietary/vendor/lib/libchromatix_ov5693_olq5f08_default_video.so:system/vendor/lib/libchromatix_ov5693_olq5f08_default_video.so \
+	vendor/xiaomi/dior/proprietary/vendor/lib/libchromatix_ov5693_olq5f08_preview.so:system/vendor/lib/libchromatix_ov5693_olq5f08_preview.so
 
 # Actuator
 PRODUCT_COPY_FILES +=\
